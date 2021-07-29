@@ -11,6 +11,6 @@
     <context:component-scan base-package="org.example"/>
 
     <bean id="tyre" class="org.example.Tyre">
-        <property name="brand" value="MRF brand"></property>
+        <constructor-arg value="MRF"/>
     </bean> <!--configure bean injection without @Component annotation-->
 </beans>
