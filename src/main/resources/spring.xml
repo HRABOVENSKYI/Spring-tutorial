@@ -10,7 +10,4 @@
 
     <context:component-scan base-package="org.example"/>
 
-    <bean id="tyre" class="org.example.Tyre">
-        <constructor-arg value="MRF"/>
-    </bean> <!--configure bean injection without @Component annotation-->
 </beans>
